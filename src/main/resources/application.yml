@@ -1,0 +1,16 @@
+server:
+  port: 8000
+
+---
+environment: test
+myWelcomeMessage:
+  WelcomeMessage: Hello from Test
+server:
+  port: 4000
+
+---
+environment: prod
+myWelcomeMessage:
+  WelcomeMessage: Hello from Prod
+server:
+  port: 5000
